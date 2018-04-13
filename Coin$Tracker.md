@@ -16,10 +16,11 @@ a su precio y repercusión en las redes.
 Además, nuestro sofisticado sistema puede seguirles la pista en tiempo real.
 
 ##Herramientas Usadas
- - X
+ - MarkDownPad2
+ - MockFlow.es(Creador de Mockups online)
 
 ##Bibliografía
- - X
+ - markdown.es
 
 ##MockUp
 ![](https://media.discordapp.net/attachments/382291738728988675/434098719390957586/Main_Page.png?width=616&height=532)
