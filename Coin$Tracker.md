@@ -23,6 +23,7 @@ Además, nuestro sofisticado sistema puede seguirles la pista en tiempo real.
 ##Bibliografía
  -  [MarkDownPad 2](http://markdownpad.com/)
  -  [MockFlow](https://www.mockflow.com/)
+ -  [.gitignore](http://aprendegit.com/tag/gitignore/)
 
 ##MockUp
 
