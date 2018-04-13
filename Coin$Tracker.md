@@ -11,9 +11,9 @@
 
 Con esta aplicación, síguele siempre el rastro de precio
 a las criptomonedas. Comparamos estadísticamente la devaluación y auge de las
-monedas como Bitcoin, Ripple, Litecoin, Dash... Respecto
-a su precio y repercusión en las redes.
+monedas como Bitcoin, Ripple, Litecoin, Dash...
 Además, nuestro sofisticado sistema puede seguirles la pista en tiempo real.
+También podrás calcular valores de una moneda respecto a otra.
 
 ##Herramientas Usadas
 
