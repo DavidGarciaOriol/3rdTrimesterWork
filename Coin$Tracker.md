@@ -32,4 +32,6 @@ También podrás calcular valores de una moneda respecto a otra.
  - Arriba un selector de monedas, una barra de búsqueda, un FAQ...
  - En la gráfica se puede ver la fluctuación de la moneda cada pocos segundos, en tiempo real.
  - A la derecha, un conversor de valores entre monedas.
+ -Se ha elegido este diseño porque es intuitivo y fácil de usar por el usuario, a pesar de ser un diseño simple cumple 
+  con sus objetivos y es eficiente.
  
