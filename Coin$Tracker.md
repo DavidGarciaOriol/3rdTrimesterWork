@@ -3,9 +3,9 @@
 
 ##Integrantes
 
-1.	***David García Oriol***
-2.	***Miguel Valiente***
-3.	***Luís Adame***
+-	***David García Oriol***
+-	***Miguel Valiente***
+-	***Luís Adame***
 
 ##¿En qué consiste?
 
