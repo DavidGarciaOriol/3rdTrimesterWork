@@ -17,7 +17,7 @@ También podrás **calcular valores** de una moneda respecto a otra.
 
 ##Herramientas Usadas
 
- - **MockFlow.**  (Miguel Valiente)
+ - **MockFlow.**  Sencillo de usar y gran variedad de elementos. Limita la cantidad de proyectos para usuarios gratuitos a uno, pero no resulta un inconveniente como tal en este trabajo.
  - **MarkDownPad 2.**  Diseño sencillo, fluído y fácil de comparar lo escrito en Markdown con el resultado final en tiempo real.
 
 ##MockUp
