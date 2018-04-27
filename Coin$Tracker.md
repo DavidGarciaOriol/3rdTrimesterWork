@@ -24,17 +24,17 @@ También podrás **calcular valores** de una moneda respecto a otra.
 
 /*![](https://media.discordapp.net/attachments/382291738728988675/434098719390957586/Main_Page.png?width=616&height=532)*/
 
-![LogIn](https://files.slack.com/files-pri/TA19953CM-FAEKG2UM8/main_page.jpg)
+![LogIn](https://cdn.discordapp.com/attachments/382291738728988675/439443464464367616/Login_In.jpg)
 
-![Main](https://files.slack.com/files-pri/TA19953CM-FADUCFD2L/login_in.jpg)
+![Main](https://cdn.discordapp.com/attachments/382291738728988675/439443471225454612/Main_Page.jpg)
 
-![CStats](https://files.slack.com/files-pri/TA19953CM-FADUCJ6QY/coin_s_stats.jpg)
+![CStats](https://cdn.discordapp.com/attachments/382291738728988675/439443470751367189/Coins_Stats.jpg)
 
-![Profile](https://files.slack.com/files-pri/TA19953CM-FAEKG56US/profile_management.jpg)
+![Buy](https://cdn.discordapp.com/attachments/382291738728988675/439443475096928256/Buy_Menu.jpg)
 
-![Buy](https://files.slack.com/files-pri/TA19953CM-FAECRG31S/buy_menu.jpg)
+![Profile](https://cdn.discordapp.com/attachments/382291738728988675/439443474241159176/Profile_Management.jpg)
 
-![CInfo](https://files.slack.com/files-pri/TA19953CM-FAEGJ7G75/coin_s_info.jpg)
+![CInfo](https://cdn.discordapp.com/attachments/382291738728988675/439443476514603018/Coins_Info.jpg)
 
  - Arriba un selector de monedas, una barra de búsqueda, un FAQ...
  - En la gráfica del centro, se puede ver la fluctuación de la moneda cada pocos segundos en tiempo real.
