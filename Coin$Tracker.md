@@ -21,7 +21,7 @@ También podrás **calcular valores** de una moneda respecto a otra.
  - **MarkDownPad 2.**  Diseño sencillo, fluído y fácil de comparar lo escrito en Markdown con el resultado final en tiempo real.
 
 ##MockUp
-
+###Página Principal
 ![Main](https://cdn.discordapp.com/attachments/382291738728988675/439443471225454612/Main_Page.jpg)
 
 ![Log/Sign-In](https://cdn.discordapp.com/attachments/382291738728988675/439443464464367616/Login_In.jpg)
