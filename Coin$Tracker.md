@@ -24,14 +24,19 @@ También podrás **calcular valores** de una moneda respecto a otra.
 
 ###Página Principal.
 ![Main](https://cdn.discordapp.com/attachments/382291738728988675/439443471225454612/Main_Page.jpg)
+
 ###Página de Registro.
 ![Log/Sign-In](https://cdn.discordapp.com/attachments/382291738728988675/439443464464367616/Login_In.jpg)
+
 ###Página de Estadísticas de la Moneda.
 ![CStats](https://cdn.discordapp.com/attachments/382291738728988675/439443470751367189/Coins_Stats.jpg)
+
 ###Página de Compra.
 ![Buy](https://cdn.discordapp.com/attachments/382291738728988675/439443475096928256/Buy_Menu.jpg)
+
 ###Página de Perfil de Usuario.
 ![UserProfile](https://cdn.discordapp.com/attachments/382291738728988675/439443474241159176/Profile_Management.jpg)
+
 ###Página de Información de la Moneda.
 ![CInfo](https://cdn.discordapp.com/attachments/382291738728988675/439443476514603018/Coins_Info.jpg)
 
