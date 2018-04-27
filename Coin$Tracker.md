@@ -22,17 +22,17 @@ También podrás **calcular valores** de una moneda respecto a otra.
 
 ##MockUp
 
-![Main](https://cdn.discordapp.com/attachments/382291738728988675/439443471225454612/Main_Page.jpg =200x)
+![Página Principal](https://cdn.discordapp.com/attachments/382291738728988675/439443471225454612/Main_Page.jpg)
 
-![LogIn](https://cdn.discordapp.com/attachments/382291738728988675/439443464464367616/Login_In.jpg)
+![Página de Registro y Autentificación](https://cdn.discordapp.com/attachments/382291738728988675/439443464464367616/Login_In.jpg)
 
-![CStats](https://cdn.discordapp.com/attachments/382291738728988675/439443470751367189/Coins_Stats.jpg)
+![Página de Estadísticas de la Mondea](https://cdn.discordapp.com/attachments/382291738728988675/439443470751367189/Coins_Stats.jpg)
 
-![Buy](https://cdn.discordapp.com/attachments/382291738728988675/439443475096928256/Buy_Menu.jpg)
+![Página de Compra](https://cdn.discordapp.com/attachments/382291738728988675/439443475096928256/Buy_Menu.jpg)
 
-![Profile](https://cdn.discordapp.com/attachments/382291738728988675/439443474241159176/Profile_Management.jpg)
+![Perfil de Usuario)(https://cdn.discordapp.com/attachments/382291738728988675/439443474241159176/Profile_Management.jpg)
 
-![CInfo](https://cdn.discordapp.com/attachments/382291738728988675/439443476514603018/Coins_Info.jpg)
+![Página de Información de la Moneda](https://cdn.discordapp.com/attachments/382291738728988675/439443476514603018/Coins_Info.jpg)
 
  - Arriba un selector de monedas, una barra de búsqueda, un FAQ...
  - En la gráfica del centro, se puede ver la fluctuación de la moneda cada pocos segundos en tiempo real.
