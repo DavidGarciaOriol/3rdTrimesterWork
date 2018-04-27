@@ -22,11 +22,9 @@ También podrás **calcular valores** de una moneda respecto a otra.
 
 ##MockUp
 
-/*![](https://media.discordapp.net/attachments/382291738728988675/434098719390957586/Main_Page.png?width=616&height=532)*/
+![Main](https://cdn.discordapp.com/attachments/382291738728988675/439443471225454612/Main_Page.jpg)
 
 ![LogIn](https://cdn.discordapp.com/attachments/382291738728988675/439443464464367616/Login_In.jpg)
-
-![Main](https://cdn.discordapp.com/attachments/382291738728988675/439443471225454612/Main_Page.jpg)
 
 ![CStats](https://cdn.discordapp.com/attachments/382291738728988675/439443470751367189/Coins_Stats.jpg)
 
