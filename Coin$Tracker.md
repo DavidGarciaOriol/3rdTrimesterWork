@@ -22,7 +22,7 @@ También podrás **calcular valores** de una moneda respecto a otra.
 
 ##MockUp
 
-![Main](https://cdn.discordapp.com/attachments/382291738728988675/439443471225454612/Main_Page.jpg)
+![Main](https://cdn.discordapp.com/attachments/382291738728988675/439443471225454612/Main_Page.jpg =200x)
 
 ![LogIn](https://cdn.discordapp.com/attachments/382291738728988675/439443464464367616/Login_In.jpg)
 
