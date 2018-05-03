@@ -48,7 +48,7 @@ También podrás **calcular valores** de una moneda respecto a otra.
 
 ## Diagrama de clases
 
-![Classes diagram](docs/Classes diagram/coinstracker_uml.png)
+![Classes diagram](docs/Classes_Diagrams/coinstracker_uml.png)
 
 ### Desglose de clases
 
@@ -105,7 +105,7 @@ También podrás **calcular valores** de una moneda respecto a otra.
 
 ## Diagrama de objetos
 
-![Objects Diagram](docs/Objects Diagram/CoinStracker.png)
+![Objects Diagram](docs/Objects_Diagram/CoinStracker.png)
 
 ## Bibliografía
  -  [MarkDownPad 2](http://markdownpad.com/) y [Typora](https://typora.io)
