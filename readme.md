@@ -57,19 +57,29 @@ También podrás **calcular valores** de una moneda respecto a otra.
     - name: es el nombre real de la persona.
     - username: es el nombre que se vería en la web y usaría para el log in.
     - id: es un identificador para el usuario, compuesto por 32 dígitos hexadecimales divididos en 4 grupos seraparados por guiones. Se expresa de la siguiente manera: 550e8400-e29b-41d4-a716-446655440000.
-    - wallet: es la cartera del usuario que contendría sus criptomonedas.
-    - network:
     - email: es el email del usuario con el que tambien podría acceder en el log in.
   - Métodos:
     - touch():
     - save():
+
+- **Admin**: son los administradores de la web.
+	- Atributos: heredados de User.
+	- Métodos: 
+		- ban(user:User): banea a un usuario.
+
+- **Client**: son los clientes de la web.
+	- Atributos:
+		- wallet: es la cartera del usuario que contendría sus criptomonedas.
+		- network: la red por donde circulan las criptomonedas. 
+	- Métodos: 
+		- transfer(to:Client): llama al metodo makeTransfer(user:User) de la clase wallet para que cree una nueva transacción.     
 
 - **Coin**: es una clase abstracta de la que heradan las clases MonedaFisica y Criptomoneda(Cambiar nombres).
 	- Atributos:
   		- name: es el nombre completo de la moneda. Ej: Bitcoin.
   		- shortname: son las siglas por las que se reconoce la moneda. Ej: BTC.
   		- id: es un identificador propio de la moneda y sigue el mismo patrón que el id del User.
-  		- network:
+  		- network: la red por donde circulan las criptomonedas.
   	- Métodos:
   		- buy(): método para comprar monedas.
   		- exchange(): método para cambiar monedas por otras.
@@ -80,18 +90,18 @@ También podrás **calcular valores** de una moneda respecto a otra.
 		- balance: es el balance de monedas que el usuario posee.
 		- owner: el el dueño de la cartera.
 		- payments: es un array en el que se guardan todos los pagos/transacciones realizadas con esa cartera.
-		- fee:
+		- fee: es la tarifa de conversión entre monedas.
 	- Métodos:
-		- makeTransfer(user:User):
+		- makeTransfer(user:User): crea una nueva transacción.
 
 - **Exchange**: son los intercambios que se llevan acabo a la hora de convertir una moneda en otra.
 	- Atributos:
 		- from: es el tipo de moneda que se desea cambiar.
 		- to: es el tipo de moneda al que se desea cambiar.
 	- Métodos:
-		- calcFees(from:Coin,to:Coin):
-		- calcValue(from:Coin,to:Coin):
-		- getExchange(from:Coin,to:Coin): 
+		- calcFees(from:Coin,to:Coin): calcula la tarifa de conversión de monedas.
+		- calcValue(from:Coin,to:Coin): calcula el valor final de la conversión.
+		- getExchange(from:Coin,to:Coin): getter del intercambio.
 
 - **Transaction**: son los intercambios que se realizan entre usuarios.
 	- Atributos: 
@@ -100,7 +110,7 @@ También podrás **calcular valores** de una moneda respecto a otra.
 		- createAt: es la fecha en la que se ha creado la transacción.
 		- quantity: es la cantidad que se va a intercambiar.
 	- Métodos:
-		- calcFees(from:Coin,to:Coin):
+		- calcFees(from:Coin,to:Coin):calcula la tarifa de conversión de monedas.
 		- transfer(): método que realiza la transacción.
 
 ## Diagrama de objetos
