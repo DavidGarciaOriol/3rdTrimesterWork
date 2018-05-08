@@ -6,8 +6,7 @@ public abstract class Coin {
 
     public String name;    
     public String shortname;
-    private UUID id;
-    private Network network;
+    private UUID id;    
     
     public Coin(String shortname) {
         // Pull data from database

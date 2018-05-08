@@ -1,25 +1,17 @@
-import com.sun.deploy.jcp.controller.Network;
-
 import java.util.UUID;
 
 public class User {
 
     String name;
     String username;
-    Wallet wallet;
     UUID id;
-    Network network;
     String email;
 
-    public User(String name, String user, UUID uuid, Wallet wallet, Network network, String email) {
-
+    public User(String name, String user, UUID uuid, String email) {
         this.name = name;
         this.username = user;
         this.id = uuid;
-        this.wallet = wallet;
-        this.network = network;
         this.email = email;
-
     }
 
     /**
@@ -44,10 +36,6 @@ public class User {
         return id;
     }
 
-    public Network getNetwork() {
-        return network;
-    }
-
     public String getName() {
         return name;
     }
@@ -58,10 +46,6 @@ public class User {
 
     public String getUsername() {
         return username;
-    }
-
-    public Wallet getWallet() {
-        return wallet;
     }
 
     public void setNetwork(Network network) {
@@ -78,13 +62,5 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public void setWallet(Wallet wallet) {
-        this.wallet = wallet;
     }
 }

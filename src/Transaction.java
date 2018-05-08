@@ -2,10 +2,10 @@ import java.util.Date;
 
 public class Transaction {
 
-    User from;
-    User to;
-    Date createdAt;
-    float quantity;
+    private User from;
+    private User to;
+    private Date createdAt;
+    private float quantity;
 
     public Transaction(User from, User to, Date createdAt, float quantity) {
         this.from = from;

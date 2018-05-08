@@ -1,9 +1,9 @@
 public class Wallet {
 
-    float balance;
-    User owner;
-    Transaction[] transactions;
-    float fee;
+    private float balance;
+    private User owner;
+    private Transaction[] transactions;
+    private float fee;
 
     public Wallet(float balance, User owner, Transaction[] transactions, float fee) {
         this.balance = balance;
