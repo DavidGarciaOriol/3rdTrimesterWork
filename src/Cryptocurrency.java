@@ -1,9 +1,11 @@
-public class Cryptocurrency extends Coin {
-    
-    private String network;
+import java.util.UUID;
 
-    public Cryptocurrency(String shortname, String network) {
-        super(shortname);
-        this.network = network;
+public class Cryptocurrency extends Coin {
+
+    String network;
+
+    public Cryptocurrency(String name, String shortname, UUID id,String network){
+        super(name,shortname,id);
+        this.network=network;
     }
 }

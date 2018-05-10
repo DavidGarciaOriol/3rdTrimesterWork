@@ -1,12 +1,15 @@
-/**
-    Represents a user with special privileges and actions.
-*/
+import com.sun.deploy.jcp.controller.Network;
+
+import java.util.UUID;
+
 public class Admin extends User {
-    public Admin(name, String user, UUID uuid, String email) {
-        super(name, user, uuid, email);
+
+
+    public Admin(String name, String user, UUID uuid, String email) {
+        super(name,user,uuid,email);
     }
 
-    private void ban(User user) {
-        // ban the specified user.
+    public void ban(User user){
+
     }
 }
