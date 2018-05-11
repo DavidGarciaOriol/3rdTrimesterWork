@@ -149,7 +149,7 @@ Este cms tiene muchas ventajas para hacer un blog pero las principales por las q
 |[Karma](http://karma-runner.github.io)|Test runner, realizaría todos los tests, fácil de integrar con vue y webpack. Vue recomienda karma.|
 |[Mocha](https://mochajs.org/)|Test framework, fácil de integrar con karma. Con gran comunidad que lo apoya.|
 
-![befemvc](docs/backend_frontend_tools/mvc.png)
+![befemvc](docs/Backend_frontend_tools/mvc.png)
 
 ## Bibliografía
  -  [MarkDownPad 2](http://markdownpad.com/) y [Typora](https://typora.io)
