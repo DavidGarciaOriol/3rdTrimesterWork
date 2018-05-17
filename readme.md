@@ -121,10 +121,10 @@ También podrás **calcular valores** de una moneda respecto a otra.
 ## CMS(Content Management System)
 Hemos elegido Wordpress para realizar el blog para la página web.
 Este cms tiene muchas ventajas para hacer un blog pero las principales por las que lo hemos elegido son:
-- Eres el legitimo propietario del blog, es decir, puedes hacer lo que quieras con el incluso llegar a venderlo. Otros cms no ten dan esta opción y aunque tu puedas modificar el blog o la web estos no son de tu propiedad.
+- Eres el legitimo propietario del blog, es decir, puedes hacer lo que quieras con él, incluso llegar a venderlo. Otros cms no te dan esta opción y aunque tú puedas modificar el blog o la web éstos no son de tu propiedad.
 - Tiene buen posicionamiento en buscadores.
 - Tiene un gran catálogo de plugins de todo tipo.
-- Es 100% responsive. Esta es de las más importantes ya que amplia nuestro espectro de clientes no solo en pc, sino tambien en otros dispositivos.
+- Es 100% responsive. Ésta es de las más importantes ya que amplía nuestro espectro de clientes no solo en PC, sino también en otros dispositivos.
 
 ## Conjunto de tecnologías elegidas
 
@@ -149,6 +149,7 @@ Este cms tiene muchas ventajas para hacer un blog pero las principales por las q
 |[Karma](http://karma-runner.github.io)|Test runner, realizaría todos los tests, fácil de integrar con vue y webpack. Vue recomienda karma.|
 |[Mocha](https://mochajs.org/)|Test framework, fácil de integrar con karma. Con gran comunidad que lo apoya.|
 
+![befemvc](docs/Backend_frontend_tools/mvc.jpg)
 
 ## Bibliografía
  -  [MarkDownPad 2](http://markdownpad.com/) y [Typora](https://typora.io)
