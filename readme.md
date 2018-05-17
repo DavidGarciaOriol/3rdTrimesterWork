@@ -151,6 +151,16 @@ Este cms tiene muchas ventajas para hacer un blog pero las principales por las q
 
 ![befemvc](docs/Backend_frontend_tools/mvc.jpg)
 
+## Diagramas de casos de uso
+### Página principal
+![Diagrama de caso de uso de la página principal](docs/UC%20Diagrams/UC%20-%20Página%20principal.jpeg)
+### Commerce
+![Diagrma de caso de uso para la página commerce](docs/UC%20Diagrams/UC%20-%20Commerce.jpg)
+
+## Fichas técnicas de casos de uso
+- [Ficha para la conversión de monedas en la página principal](docs/Data%20sheets/Coin%20converter%20-%20Data%20sheet.md)
+- [Ficha para la compra de monedas en la página commerce](docs/Data%20Sheets/Buy%20Coin%20-%20Data%20Sheet.md)
+
 ## Bibliografía
  -  [MarkDownPad 2](http://markdownpad.com/) y [Typora](https://typora.io)
  -  [MockFlow](https://www.mockflow.com/)
