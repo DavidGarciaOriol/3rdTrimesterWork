@@ -1,7 +1,7 @@
 |||
 |--|--|
 |Nombre:|Log-In|
-|Autor:|Miguel Valiente|
+|Autor:|Miguel Ángel Valiente Vázquez|
 |Fecha:|15/05/2018|
 |Descripción: |Permite al cliente identificarse mediante su nombre de usuario|
 |Actores: |Usuario/Cliente|
