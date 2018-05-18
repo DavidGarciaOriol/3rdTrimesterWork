@@ -162,10 +162,21 @@ Este cms tiene muchas ventajas para hacer un blog pero las principales por las q
 ![Diagrama de caso de uso de la página principal](docs/UC%20Diagrams/UC%20-%20Página%20principal.jpeg)
 ### Commerce
 ![Diagrma de caso de uso para la página commerce](docs/UC%20Diagrams/UC%20-%20Commerce.jpg)
+### Profile
+![Diagrma de caso de uso para la página profile](docs/UC%20Diagrams/UC%20-%20Profile.jpg)
+### Coin Stats
+![Diagrma de caso de uso para la página coinstats](docs/UC%20Diagrams/UC%20-%20CoinStats.jpg)
+### Log-In
+![Diagrma de caso de uso para la página login](docs/UC%20Diagrams/UC%20-%20LogIn.png)
+### Coin Info
+![Diagrma de caso de uso para la página coininfo](docs/UC%20Diagrams/UC%20-%20Coin%20Info.png)
 
 ## Fichas técnicas de casos de uso
 - [Ficha para la conversión de monedas en la página principal](docs/Data%20sheets/Coin%20converter%20-%20Data%20sheet.md)
 - [Ficha para la compra de monedas en la página commerce](docs/Data%20Sheets/Buy%20Coin%20-%20Data%20Sheet.md)
+- [Ficha para la compra de monedas en la página coininfo](docs/Data%20Sheets/Coin%20Info%20-%20Data%20Sheet.md)
+- [Ficha para la compra de monedas en la página login](docs/Data%20Sheets/LogIn%20-%20Data%20Sheet.md)
+- [Ficha para la compra de monedas en la página profile](docs/Data%20Sheets/Profile%20-%20Data%20Sheet.md)
 
 ## Bibliografía
  -  [MarkDownPad 2](http://markdownpad.com/) y [Typora](https://typora.io)
