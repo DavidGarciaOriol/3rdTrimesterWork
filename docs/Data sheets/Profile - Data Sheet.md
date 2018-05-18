@@ -1,7 +1,7 @@
 |||
 |--|--|
 |Nombre:|Profile|
-|Autor:|David|
+|Autor:|David García Oriol|
 |Fecha:|17/05/2018|
 |Descripción: |Permite al usuario rellenar su perfil con datos adicionales y cambiar su contraseña.|
 |Actores: |Usuario/Cliente|
