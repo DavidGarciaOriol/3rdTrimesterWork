@@ -16,5 +16,5 @@
 2.A. - El actor, a la hora de repetir la nueva contraseña, introduce una que no coincide con la del primer campo.
 
 ---
-**Poscondiciones:**
+**Precondiciones:**
 La introducción de datos de usuario así como el cambio de contraseña solo serán posibles tras el usuario acceder al perfil de su cuenta ya creada y autenticada.
