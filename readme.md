@@ -148,6 +148,12 @@ Este cms tiene muchas ventajas para hacer un blog pero las principales por las q
 |[Vue.JS](https://vuejs.org)|JS Framework, nos permite realizar vistas dinamicas, resuelve problemas de compatibilidad entre navegadores. Se usaría para obtener los datos del backend proporcionados por su api. Vue es un framework con mucha comunidad, permite la modularización de las vistas y tiene muy buen rendimiento.|
 |[Karma](http://karma-runner.github.io)|Test runner, realizaría todos los tests, fácil de integrar con vue y webpack. Vue recomienda karma.|
 |[Mocha](https://mochajs.org/)|Test framework, fácil de integrar con karma. Con gran comunidad que lo apoya.|
+|[Git](https://git-scm.com/)|Sistema de control de versiones para poder mantener un historial de cambios, organizar nuevas propuestas y bugs y mejora el trabajo colaborativo.|
+|[Yarn](http://yarnpkg.com/)|Gestor de paquetes, permite añadir dependencias al proyecto más fácilmente, actualizarlas, etc.|
+|[Babel](https://babeljs.io/)|Compilador de Javascript que asegura el correcto funcionamiento de las últimas funcionalidades de javascript en navegadores más antiguos.|
+|[Lighthouse](https://github.com/GoogleChrome/lighthouse)|Analiza la aplicación web y recoje estadísticas del rendimiento y del uso de buenas prácticas.|
+|[Tailwind](https://tailwindcss.com/)|CSS Framework que permite un desarrollo más ágil.|
+|[Pug](https://pugjs.org/api/getting-started.html)|Template Engine|
 
 ![befemvc](docs/Backend_frontend_tools/mvc.jpg)
 
