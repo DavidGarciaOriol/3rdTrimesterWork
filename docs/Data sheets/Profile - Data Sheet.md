@@ -5,7 +5,7 @@
 |Fecha:|17/05/2018|
 |Descripción: |Permite al usuario rellenar su perfil con datos adicionales y cambiar su contraseña.|
 |Actores: |Usuario/Cliente|
-|Precondiciones: El usuario debe estar autenticado en el sistema.|
+|Precondiciones: |El usuario debe estar autenticado en el sistema.|
 ---
 **Flujo normal:**
 1. El actor rellena su nombre de usuario, nombre real, apellidos, país de residencia y su ciudad.
