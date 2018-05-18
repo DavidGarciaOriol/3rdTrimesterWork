@@ -3,8 +3,7 @@
 |Nombre:|Ver información criptomonedas|
 |Autor:|Miguel Ángel Valiente Vázquez|
 |Fecha:|15/05/2018|
-|Descripción: |El usuario podrá ver la información de las criptomonedas como la
-historia de esta y otros datos|
+|Descripción: |El usuario podrá ver la información de las criptomonedas como la historia de esta y otros datos|
 |Actores: |Usuario/BBDD|
 |Precondiciones: |El usuario debe tener una cuenta en la página.|
 ---
