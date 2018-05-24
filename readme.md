@@ -171,6 +171,10 @@ Este cms tiene muchas ventajas para hacer un blog pero las principales por las q
 ### Coin Info
 ![Diagrma de caso de uso para la página coininfo](docs/UC%20Diagrams/UC%20-%20Coin%20Info.png)
 
+## Diagramas de Flujo de Actividad.
+### Profile
+![Diagrama de Actividad de la Página de Perfil de Usuario](docs/Activity_Diagrams/Profile_Act_Diagram.png)
+
 ## Fichas técnicas de casos de uso
 - [Ficha para la conversión de monedas en la página principal](docs/Data%20sheets/Coin%20converter%20-%20Data%20sheet.md)
 - [Ficha para la compra de monedas en la página commerce](docs/Data%20Sheets/Buy%20Coin%20-%20Data%20Sheet.md)
