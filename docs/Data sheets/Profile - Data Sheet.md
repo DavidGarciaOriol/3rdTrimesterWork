@@ -13,7 +13,7 @@
 ---
 **Flujo alternativo:**
 
-2.A. - El actor, a la hora de repetir la nueva contraseña, introduce una que no coincide con la del primer campo.
+2.A. - El actor, a la hora de introducir la contraseña actual, la introduce errónaeamente, no permitiendo continuar con la operación.
 
 ---
 **Postcondiciones:**
