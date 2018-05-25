@@ -171,10 +171,6 @@ Este cms tiene muchas ventajas para hacer un blog pero las principales por las q
 ### Coin Info
 ![Diagrma de caso de uso para la página coininfo](docs/UC%20Diagrams/UC%20-%20Coin%20Info.png)
 
-## Diagramas de Flujo de Actividad.
-### Profile
-![Diagrama de Actividad de la Página de Perfil de Usuario](docs/Activity_Diagrams/Profile_Act_Diagram.png)
-
 ## Fichas técnicas de casos de uso
 - [Ficha para la conversión de monedas en la página principal](docs/Data%20sheets/Coin%20converter%20-%20Data%20sheet.md)
 - [Ficha para la compra de monedas en la página commerce](docs/Data%20Sheets/Buy%20Coin%20-%20Data%20Sheet.md)
@@ -182,16 +178,14 @@ Este cms tiene muchas ventajas para hacer un blog pero las principales por las q
 - [Ficha para la compra de monedas en la página login](docs/Data%20Sheets/LogIn%20-%20Data%20Sheet.md)
 - [Ficha para la compra de monedas en la página profile](docs/Data%20Sheets/Profile%20-%20Data%20Sheet.md)
 
-## Diagramas de actividades
-
+## Diagramas de Flujo de Actividad.
+### Profile
+![Diagrama de Actividad de la Página de Perfil de Usuario](docs/Activity_Diagrams/Profile_Act_Diagram.png)
 ### Página principal
-
 #### Conversor de monedas
 ![Diagrama de actividades para la página principal - Coin Conversor](/docs/Activity%20Diagrams/Main%20Page/Coin_Conversor.png)
 #### Selección de monedas
 ![Diagrama de actividades para la página principal - Coin Selection](/docs/Activity%20Diagrams/Main%20Page/Coin_Selection_Menu_Bar.png)
-
-
 ### Página Commerce
 ![Diagrama de actividades para la página commerce](/docs/Activity%20Diagrams/Commerce%20Page/Buy_Sell_Exchange.png)
 
