@@ -178,6 +178,19 @@ Este cms tiene muchas ventajas para hacer un blog pero las principales por las q
 - [Ficha para la compra de monedas en la página login](docs/Data%20Sheets/LogIn%20-%20Data%20Sheet.md)
 - [Ficha para la compra de monedas en la página profile](docs/Data%20Sheets/Profile%20-%20Data%20Sheet.md)
 
+## Diagramas de actividades
+
+### Página principal
+
+#### Conversor de monedas
+![Diagrama de actividades para la página principal - Coin Conversor](/docs/Activity%20Diagrams/Main%20Page/Coin_Conversor.png)
+#### Selección de monedas
+![Diagrama de actividades para la página principal - Coin Selection](/docs/Activity%20Diagrams/Main%20Page/Coin_Selection_Menu_Bar.png)
+
+
+### Página Commerce
+![Diagrama de actividades para la página commerce](/docs/Activity%20Diagrams/Commerce%20Page/Buy_Sell_Exchange.png)
+
 ## Bibliografía
  -  [MarkDownPad 2](http://markdownpad.com/) y [Typora](https://typora.io)
  -  [MockFlow](https://www.mockflow.com/)
