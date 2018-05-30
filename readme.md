@@ -200,6 +200,28 @@ Precisamos de un **middleware que registre** (*logging*) todos los movimientos q
 
 **Encriptación de transacciones**: las transacciones tienen que ser enviadas entre máquinas estando encriptadas para que no surga un filtro de información privada y confidencial.
 
+Necesitamos un middleware que realice un correcto enrutamiento de los métodos http. Así podemos crear *apis* que sean consumidas fácilmente. Por ejemplo: si se realiza una petición de javascript asíncrona entonces sabremos que los datos tendrán que ser devueltos en formato *json*. En el caso de este ejemplo el middleware es el que se encargaría de detectar que es una petición realizada por *ajax* y que se tiene que devolver *json*. Esto es importante porque nuestra aplicación es posible que sea portada a diferentes tecnologías que sean soportadas en distintos sistemas operativos o dispositivos, y probablemente estos clientes deberán de hacer uso de *apis* internas.
+
+La **validación** de datos es realmente importante en nuestra aplicación (en el caso de una transferencia por ejemplo). Si tuviesemos una frágil implementación de validación de datos estaríamos dejando una ventana para posibles ciberataques. Lo cual resultaría fatal en una aplicación que maneja monedas. Por tanto, necesitamos un middleware que se encarge de validar y sanear los datos provenientes de las peticiones.
+
+**Manejo de errores**. Un middleware que se encargue de manejar errores del servidor, es decir, cuando la respuesta del servidor es de un error interno (500) entonces el middleware detectaría dicho caso y mostraría una página estática o un mensaje más agradable al usuario que un código de error.
+
+## Herramientas DevOps
+
+### Git
+
+Forma parte de la categoría de código. Git realiza un control de versiones del código o mejor dicho de los archivos del repositorio y sincroniza dichos cambios o versiones con otras personas.
+
+#### Características
+- Desarrollo no lineal. Esto quiere decir que soporta la creación y fusión de ramas, lo que nos permite implementar características a nuestro proyecto sin depender de que otra característica se implemente antes. Una ventaja de esto podría ser en la creación de parches a nuestro código en producción, sin tener que modificar código en desarrollo.
+- Desarrollo distribuido. Cada desarrollador tiene una copia del historial de desarrollo y los cambios son copiados de un repositorio a otro. Estos cambios se pueden fusionar a los cambios locales.
+- Compatible con múltiples sitemas y protocolos como pueden ser http, ftp, rsync, ssh, etc.
+- Alto rendimiento con proyecto muy grandes.
+
+#### Diferencias con *Subversion*
+En primer lugar git es descentralizado mientras que subversion hace uso de una localización para su repositorio, esto permite que puedas realizar cambios a un repositorio sin estar conectado a internet ya que cada persona tiene una copia local del proyecto e historial en su ordenador.
+Por otro lado subversion tiene una curva de aprendizaje mucho mas plana y eso puede resultar en una productividad mayor.
+
 
 ## Bibliografía
  -  [MarkDownPad 2](http://markdownpad.com/) y [Typora](https://typora.io)
