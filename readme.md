@@ -183,14 +183,26 @@ Este cms tiene muchas ventajas para hacer un blog pero las principales por las q
 ![Diagrama de Actividad de la Página de Perfil de Usuario](docs/Activity_Diagrams/Profile_Act_Diagram.png)
 ### Página principal
 #### Conversor de monedas
-![Diagrama de actividades para la página principal - Coin Conversor](/docs/Activity%20Diagrams/Main%20Page/Coin_Conversor.png)
+![Diagrama de actividades para la página principal - Coin Conversor](docs/Activity%20Diagrams/Main%20Page/Coin_Conversor.png)
 #### Selección de monedas
-![Diagrama de actividades para la página principal - Coin Selection](/docs/Activity%20Diagrams/Main%20Page/Coin_Selection_Menu_Bar.png)
+![Diagrama de actividades para la página principal - Coin Selection](docs/Activity%20Diagrams/Main%20Page/Coin_Selection_Menu_Bar.png)
 ### Página Commerce
-![Diagrama de actividades para la página commerce](/docs/Activity%20Diagrams/Commerce%20Page/Buy_Sell_Exchange.png)
+![Diagrama de actividades para la página commerce](docs/Activity%20Diagrams/Commerce%20Page/Buy_Sell_Exchange.png)
+
+## Middlewares
+
+Como la aplicación hace uso de la autenticación de usuarios y de sus sesiones entonces será necesario el uso de un middleware que se encargue de **autenticar** a los usuarios en cada petición que se realice y también la **gestión de las sesiones** de dichos usuarios autenticados, para así, por ejemplo, determinar el tiempo de inactividad del usuario y cerrar la sesión de aquellos que hayan tenido la sesión inactiva durante 30 minutos.
+
+Además, nuestra aplicación define varios tipos de usuario: administrador, cliente, visitante.
+De aquellos que son visitantes no realizaremos ningún seguimiento de sesiones, pero en el caso del administrador y clientes tenemos que dejar bien claras sus diferencias. Las diferencias claras entre ambos tipos de usuarios son los permisos y autorizaciones que tienen independientemente, es decir, el administrador tendrá unos permisos dados para poder manejar ciertos recursos mientras que los clientes no. Y el administrador tendrá autorizaciones dadas para poder realizar ciertas acciones que los clientes no pueden realizar, como puede ser banear a otro usuario. Entonces, es necesaria la existencia de un middleware de **permisos y autorización** para que controle las acciones de los usuarios.
+
+Precisamos de un **middleware que registre** (*logging*) todos los movimientos que se realizan dentro de la aplicación, en el caso de los clientes este registro solo será visible para ellos mismos y en el caso de los administradores sus registros serán públicos para los demás administradores. Esto es útil, por ejemplo, si un cliente quiere recordar o revisar que movimientos, acciones, transferencias o cualquier acción realizada, y en el caso de los administradores es importante que se vean claros los registros entre ellos para verificar que ninguno está ejerciendo ningún abuso de poder o acciones que pueden repercutir negativamente en el sistema.
+
+**Encriptación de transacciones**: las transacciones tienen que ser enviadas entre máquinas estando encriptadas para que no surga un filtro de información privada y confidencial.
+
 
 ## Bibliografía
  -  [MarkDownPad 2](http://markdownpad.com/) y [Typora](https://typora.io)
  -  [MockFlow](https://www.mockflow.com/)
  -  [.gitignore](http://aprendegit.com/tag/gitignore/)
- -	[Draw.io](https://www.draw.io): realización de los diagramas de casos de uso.
+	-	[Draw.io](https://www.draw.io): realización de los diagramas de casos de uso.
