@@ -222,6 +222,33 @@ Forma parte de la categoría de código. Git realiza un control de versiones del
 En primer lugar git es descentralizado mientras que subversion hace uso de una localización para su repositorio, esto permite que puedas realizar cambios a un repositorio sin estar conectado a internet ya que cada persona tiene una copia local del proyecto e historial en su ordenador.
 Por otro lado subversion tiene una curva de aprendizaje mucho mas plana y eso puede resultar en una productividad mayor.
 
+## Cookies ![asdf](link)
+
+Haremos uso de Cookies para mejorar su experiencia de navegación en esta web.
+Debe dar su consentimiento para poder llevar a cabo esta acción.
+
+Nuestro uso de las cookies será dedicado a:
+- Recordar los datos de Usuario, como el nombre de usuario y contraseña.
+- Mantener tu sesión iniciada.
+- Recopilar información sobre los movimientos comunes entre usuarios, respecto a compras, monedas más utilizadas...
+ 
+El empleo de estos datos será exclusivamente con vista mejoras de la experiencia de uso del usuario con la propia aplicación.
+
+## Cloud
+- Microsoft Azure
+
+### Tipo de Nube
+- Nube tipo IaaS (Infrastructure as a Service).
+
+### Características
+- Permite el alojamiento de nuestra aplicación web en un entorno virtual controlado en la nube. 
+- Hace uso de un OS especializado que maneja los recursos almacenados y procesamiento para proveer parte de los recursos para las aplicaciones alojadas.
+- Ofrece un servicio de almacenamiento de copias de seguridad ante cualquier fallo en la tecnología. Éstas quedan cifradas.
+- Está sueta a una estricta normativa de privacidad, para mantener a salvo los datos de privacidad de nuestros usuarios.
+
+### Empleo
+Usaríamos esta tecnología para mantener los datos de nuestras criptomonedas, así como de los usuarios clientes, sus carteras, transacciones, y copias de seguridad de dichos datos.
+
 
 ## Bibliografía
  -  [MarkDownPad 2](http://markdownpad.com/) y [Typora](https://typora.io)
