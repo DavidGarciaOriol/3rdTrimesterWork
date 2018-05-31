@@ -222,7 +222,7 @@ Forma parte de la categoría de código. Git realiza un control de versiones del
 En primer lugar git es descentralizado mientras que subversion hace uso de una localización para su repositorio, esto permite que puedas realizar cambios a un repositorio sin estar conectado a internet ya que cada persona tiene una copia local del proyecto e historial en su ordenador.
 Por otro lado subversion tiene una curva de aprendizaje mucho mas plana y eso puede resultar en una productividad mayor.
 
-## Cookies ![cookie](docs/lacookie/cookie.png)
+## Cookies
 
 Haremos uso de Cookies para mejorar su experiencia de navegación en esta web.
 Debe dar su consentimiento para poder llevar a cabo esta acción.
