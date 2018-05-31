@@ -244,7 +244,7 @@ El empleo de estos datos será exclusivamente con vista mejoras de la experienci
 - Permite el alojamiento de nuestra aplicación web en un entorno virtual controlado en la nube. 
 - Hace uso de un OS especializado que maneja los recursos almacenados y procesamiento para proveer parte de los recursos para las aplicaciones alojadas.
 - Ofrece un servicio de almacenamiento de copias de seguridad ante cualquier fallo en la tecnología. Éstas quedan cifradas.
-- Está sueta a una estricta normativa de privacidad, para mantener a salvo los datos de privacidad de nuestros usuarios.
+- Está sujeta a una estricta normativa de privacidad, para mantener a salvo los datos de privacidad de nuestros usuarios.
 
 ### Empleo
 Usaríamos esta tecnología para mantener los datos de nuestras criptomonedas, así como de los usuarios clientes, sus carteras, transacciones, y copias de seguridad de dichos datos.
