@@ -40,6 +40,9 @@ También podrás **calcular valores** de una moneda respecto a otra.
 ### Página de Información de la Moneda.
 ![CInfo](https://cdn.discordapp.com/attachments/382291738728988675/439443476514603018/Coins_Info.jpg)
 
+### Página de Error 404.
+![Error-404](https://media.discordapp.net/attachments/382291738728988675/452106248947630090/mockup_ERROR_404.jpg)
+
  - Arriba un selector de monedas, una barra de búsqueda, un FAQ...
  - En la gráfica del centro, se puede ver la fluctuación de la moneda cada pocos segundos en tiempo real.
  - A la derecha, un conversor de valores entre monedas.
@@ -250,6 +253,43 @@ Sin embargo, Jenkins puede ser, al principio, la curva de aprendizaje es inclina
 ### SeaLights
 
 
+## Cookies
+
+Haremos uso de Cookies para mejorar su experiencia de navegación en esta web.
+Debe dar su consentimiento para poder llevar a cabo esta acción.
+
+Nuestro uso de las cookies será dedicado a:
+- Recordar los datos de Usuario, como el nombre de usuario y contraseña.
+- Mantener tu sesión iniciada.
+- Recopilar información sobre los movimientos comunes entre usuarios, respecto a compras, monedas más utilizadas...
+
+El empleo de estos datos será exclusivamente con vista mejoras de la experiencia de uso del usuario con la propia aplicación.
+
+## Cloud
+- Microsoft Azure
+
+### Tipo de Nube
+- Nube tipo IaaS (Infrastructure as a Service).
+
+### Características
+- Permite el alojamiento de nuestra aplicación web en un entorno virtual controlado en la nube. 
+- Hace uso de un OS especializado que maneja los recursos almacenados y procesamiento para proveer parte de los recursos para las aplicaciones alojadas.
+- Ofrece un servicio de almacenamiento de copias de seguridad ante cualquier fallo en la tecnología. Éstas quedan cifradas.
+- Está sujeta a una estricta normativa de privacidad, para mantener a salvo los datos de privacidad de nuestros usuarios.
+
+### Empleo
+Usaríamos esta tecnología para mantener los datos de nuestras criptomonedas, así como de los usuarios clientes, sus carteras, transacciones, y copias de seguridad de dichos datos.
+
+### BlockChain
+El blockchain seria aplicable a la hora de realizar transacciones en nuestra web, mandando la transacción a la red para ser validada por los miembros de la red, después de su validación la transacción pasara a formar parte de la cadena y se realizará la transacción.
+
+Ventajas:
+- El Blockchain otorga mayor seguridad, rapidez y eficacia.
+- Es público, descentralizado, transparente e inmutable. Los datos cifrados son accesibles para todos en la red.
+
+### Big Data
+En nuestro caso se podrian hacer big data los valores de las monedas que estan en constante cambio, por lo tanto se generan gran cantidad de datos. Otro ejemplo serían los log de usuarios donde se veria todo lo que realizan los usuarios, inicios de sesión, cambio en el perfil de usuario, etc. 
+Con MongoDB podemos acceder a los datos mediante claves, por ejemplo con el nombre de la criptomoneda obtendriamos todos los valores que va teniendo. Y con el id de usuario podriamos acceder a todas las actividades que ha realizado el usuario.
 
 ## Bibliografía
  -  [MarkDownPad 2](http://markdownpad.com/) y [Typora](https://typora.io)
