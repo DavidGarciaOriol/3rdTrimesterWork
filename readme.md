@@ -259,6 +259,11 @@ Ventajas:
 - El Blockchain otorga mayor seguridad, rapidez y eficacia.
 - Es público, descentralizado, transparente e inmutable. Los datos cifrados son accesibles para todos en la red.
 
+### Big Data
+En nuestro caso se podrian hacer big data los valores de las monedas que estan en constante cambio, por lo tanto se generan gran cantidad de datos. Otro ejemplo serían los log de usuarios donde se veria todo lo que realizan los usuarios, inicios de sesión, cambio en el perfil de usuario, etc. 
+Con MongoDB podemos acceder a los datos mediante claves, por ejemplo con el nombre de la criptomoneda obtendriamos todos los valores que va teniendo. Y con el id de usuario podriamos acceder a todas las actividades que ha realizado el usuario.
+
+
 
 ## Bibliografía
  -  [MarkDownPad 2](http://markdownpad.com/) y [Typora](https://typora.io)
