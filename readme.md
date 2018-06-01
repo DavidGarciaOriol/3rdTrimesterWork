@@ -252,6 +252,13 @@ El empleo de estos datos será exclusivamente con vista mejoras de la experienci
 ### Empleo
 Usaríamos esta tecnología para mantener los datos de nuestras criptomonedas, así como de los usuarios clientes, sus carteras, transacciones, y copias de seguridad de dichos datos.
 
+### BlockChain
+El blockchain seria aplicable a la hora de realizar transacciones en nuestra web, mandando la transacción a la red para ser validada por los miembros de la red, después de su validación la transacción pasara a formar parte de la cadena y se realizará la transacción.
+
+Ventajas:
+- El Blockchain otorga mayor seguridad, rapidez y eficacia.
+- Es público, descentralizado, transparente e inmutable. Los datos cifrados son accesibles para todos en la red.
+
 
 ## Bibliografía
  -  [MarkDownPad 2](http://markdownpad.com/) y [Typora](https://typora.io)
