@@ -189,6 +189,15 @@ Este cms tiene muchas ventajas para hacer un blog pero las principales por las q
 ### Página Commerce
 ![Diagrama de actividades para la página commerce](docs/Activity%20Diagrams/Commerce%20Page/Buy_Sell_Exchange.png)
 
+## Diagrama del flujo web
+En el diagrama podemos observar los caminos que toma la aplicacíon al realizar una compra de criptomonedas desde la página para ello.
+![Diagrama de flujo web](docs/WebFlowDiagram.png)
+La petición se realiza al punto de destino: `/api/v1/coins/buy` con un método *post* y pasa por múltiples middlewares que verifican la existencia del usuario y lo identifican, validan datos, loggean acciones, e identifican que tipo de método http se ha usado y qué formato de salida tendrán los datos en la respuesta del servidor.
+
+El router del framework se encarga de llamar al método correspondiente del controlador estipulado. En este caso el método *buy* del controlador: `CoinsController` será ejecutado. En este método haremos uso de la clase `Coin` y de su método *buy*. En este método crearemos una transacción en la que accedera a la red de cadena de bloques y obtendremos la cantidad de monedas indicadas. Estos datos vuelven encriptados a la clase `Coin` y entonces obtiene el usuario autenticado, accede a su `Wallet` y ejecuta el método *setBalance* que modificará el balance de la cuenta conforme el número de monedas compradas accediendo a la base de datos y modificando la fila exacta.
+
+Una vez el método *buy* de la clase `Coin` se ha ejecutado satisfactoriamente, enviaremos la respuesta al cliente probablemente en formato *json* y nuestra parte de la aplicación en el cliente recibirá esta respuesta y actualizaremos la página conforme a los datos devueltos por el servidor.
+
 ## Middlewares
 
 Como la aplicación hace uso de la autenticación de usuarios y de sus sesiones entonces será necesario el uso de un middleware que se encargue de **autenticar** a los usuarios en cada petición que se realice y también la **gestión de las sesiones** de dichos usuarios autenticados, para así, por ejemplo, determinar el tiempo de inactividad del usuario y cerrar la sesión de aquellos que hayan tenido la sesión inactiva durante 30 minutos.
@@ -221,6 +230,25 @@ Forma parte de la categoría de código. Git realiza un control de versiones del
 #### Diferencias con *Subversion*
 En primer lugar git es descentralizado mientras que subversion hace uso de una localización para su repositorio, esto permite que puedas realizar cambios a un repositorio sin estar conectado a internet ya que cada persona tiene una copia local del proyecto e historial en su ordenador.
 Por otro lado subversion tiene una curva de aprendizaje mucho mas plana y eso puede resultar en una productividad mayor.
+
+### Jenkins
+
+Jenkins es un servidor de automatización que nos ayuda a **construir, desplegar y automatizar** cualquier proyecto. Esta herramienta entraría dentro de la categoria de construcción.
+
+#### Características
+Jenkins es una herramienta multiplataforma para la **integración continua** de nuestro proyecto. Posee una interfaz gráfica y de consola.
+
+Jenkins es muy flexible porque te permite añadir plugins de una lista que posee y te permite aladir tus propios plugins, por tanto, es también muy extensible. 
+
+Destaca también por la distribución de construcciones y pruebas de carga en múltiples máquinas.
+
+#### Diferencias con *Travis CI*
+Travis CI es una de las soluciones de integración continua más maduras de la industria. Y aunque para proyectos *open source* el plan es gratuito, aquellos proyectos privados tendrán únicamente las primeras cien construcciones gratis, después tendrás que escoger un plan de suscripción. Mientras que Jenkins es una herramienta gratuita y bajo licencia MIT.
+
+Sin embargo, Jenkins puede ser, al principio, la curva de aprendizaje es inclinada pero vale totalmente la pena.
+
+### SeaLights
+
 
 
 ## Bibliografía
