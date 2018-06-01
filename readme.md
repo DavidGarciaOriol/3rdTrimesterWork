@@ -40,6 +40,9 @@ También podrás **calcular valores** de una moneda respecto a otra.
 ### Página de Información de la Moneda.
 ![CInfo](https://cdn.discordapp.com/attachments/382291738728988675/439443476514603018/Coins_Info.jpg)
 
+### Página de Error 404.
+![Error-404](https://media.discordapp.net/attachments/382291738728988675/452106248947630090/mockup_ERROR_404.jpg)
+
  - Arriba un selector de monedas, una barra de búsqueda, un FAQ...
  - En la gráfica del centro, se puede ver la fluctuación de la moneda cada pocos segundos en tiempo real.
  - A la derecha, un conversor de valores entre monedas.
