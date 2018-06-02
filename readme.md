@@ -250,7 +250,30 @@ Travis CI es una de las soluciones de integración continua más maduras de la i
 
 Sin embargo, Jenkins puede ser, al principio, la curva de aprendizaje es inclinada pero vale totalmente la pena.
 
-### SeaLights
+### Parasoft
+
+Parasoft es una herramienta de pruebas continuas muy conocida que realiza pruebas funcionales y que se utiliza también para hacer pruebas continuas. Esto ayuda a lanzar versiones del software que no tengan defectos de forma eficiente y que no consuma un tiempo preciado para los ingenieros.
+
+#### Características
+- Reduce los riesgos relacionados con el lanzamiento de software.
+- Reduce el coste y el tiempo en el proceso de desarrollo.
+- Asegura que la calidad del proyecto sea la mejor elminando los posibles defectos no detectados.
+
+#### Diferencias con *Sealights*
+Sealights es una herramienta basada en la nube mientras que Parasoft no.
+Parasoft cuenta con una comunidad grande que respalda esta herramienta mientras que sealights es un producto más reciente.
+
+### Sonatype
+
+Sonatype es un repositorio de artefactos con un soporte muy extenso para formatos populares. Los repositorios de artefactos nos permiten separar diferentes componentes de nuestra aplicación que pueden ser muy infecientes de mantener controlados con un sistema de control de versiones convencional como git. Porque podemos tener diferentes paquetes como el código fuente, la aplicación compilada (binario), documentación, etc. Y por tanto para un sistema de control de versiones sería muy complicado mantener controlado las versiones de un paquete binario.
+
+#### Características
+- Repositorio centralizado.
+- Única fuente de verdad para todos los binarios y artefactos construidos.
+- Proporciona conocimiento sobre la seguridad, licencias y problemas de calidad de componentes.
+
+#### Diferencias con *JFrog*
+*Jfrog* actua también como un repositorio de artefactos a diferencia que es un software de pago. Ofrece una solución híbrida entre la nube o hosteado.
 
 
 ## Cookies
