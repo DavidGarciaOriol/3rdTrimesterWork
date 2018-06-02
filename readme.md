@@ -275,6 +275,56 @@ Sonatype es un repositorio de artefactos con un soporte muy extenso para formato
 #### Diferencias con *JFrog*
 *Jfrog* actua también como un repositorio de artefactos a diferencia que es un software de pago. Ofrece una solución híbrida entre la nube o hosteado.
 
+### Codeship
+
+Codeship es una herramienta que nos permite realizar integración y lanzamientos continuos en la nube. Lo que nos permite agilizar mucho el proceso de desarrollo. Al ser un servicio en la nube no tenemos que gastar tiempo y recursos en mantener una infraestructura para realizar estas mismas operaciones.
+
+#### Características
+- Codeship ofrece un plan gratuito que te permite realizar:
+	- 100 construcciones al mes
+	- Usuarios ilimitados
+	- Proyectos ilimitados
+- Si el proyecto es open source todo es gratis.
+- Buen soporte al cliente.
+- Buena seguridad a través de ssh.
+
+#### Diferencias con *ElectricCloud*
+ElectricCloud sirve también como una herramienta de lanzamiento/construcción continua. Sin embargo, es gratuita en todos sus aspectos, pero no es basada en la nube. Ofrece gran parte de las características que ofrece Codeship.
+
+### Terraform
+Con Terraform podemos configurar la infraestructura en la que vamos a correr nuestros servicios a travñes de un simple archivo de configuración. Y con esto logramos automatizar el proceso de creación de infraestructuras, así una vez mas, agilizando el proceso de desarrollo.
+
+#### Características
+- Simple API con la que podemos definir nuestra infrastructura en archivo *JSON*.
+- Esto permite el almacenamiento de cómo es nuestra infraestructura en un sistema de control de versiones.
+- La automatización y codificación de nuestra infraestructura es fácil de realizar ya que el archivo permite el uso de variables y muchas de las características que ofrece *ECMAScript*.
+
+#### Diferencias con *Puppet*
+Realmente Terraform se enfoca en un nivel más alto de abstracción que puppet. De hecho, Terraform permite cualquier tipo de herramineta de control de configuración para que monte un recurso una vez se ha creado. Por tanto, estas herramientas funcionan conjuntamente.
+
+### Ganglia
+
+Esta herramienta ofrece capacidades de monitorazión de clusters y grids. Esta herramienta escalable está diseñada para sistemas de alto rendimineto como cluster y grids. Su costo es gratuito.
+
+#### Características
+- Sistema de monitorización escalable y distribuido basado en un diseño jerárquico enfocado en conjunto de clusters.
+- Enfocado en gastos de consumo bajos por nodo para alta concurrencia.
+- Puede escalar para manejar clusters de hasta 2000 nodos.
+
+#### Diferencias con *Nagios*
+Nagios es el estándar en monitorización de infraestructuras, pero tiene un coste muy elevado. Y Nagios suele ofrecer mejores características en casi todos los aspectos en Ganglia.
+
+### Vagrant
+
+Vagrant es una herramienta para construir y administrar entornos de máquinas virtuales. Se enfoca en un flujo de trabajo sencillo y en la automatización. Esto ayuda a reducir los tiempos de montaje de entornos de desarrollo y erradica las incompatibilidades entre sistemas de desarrollo, es decir, si funciona en una entorno de vagrant, funciona en todos.
+
+#### Características
+- Simple y potente por su API.
+- Hace que el entorno de desarrollo se asemeje lo máximo posible al de producción para evitar fallos inesperados.
+- Es multiplataforma.
+
+#### Diferencias con *Docker*
+Docker es una herramienta de administración de contenedores. Esto significa que Docker consume menos recursos que Vagrant porque los contenedores no están basados en el software de virtualización llamado *Hypervisor*. 
 
 ## Cookies
 
