@@ -191,6 +191,10 @@ Este cms tiene muchas ventajas para hacer un blog pero las principales por las q
 ![Diagrama de actividades para la página principal - Coin Selection](docs/Activity%20Diagrams/Main%20Page/Coin_Selection_Menu_Bar.png)
 ### Página Commerce
 ![Diagrama de actividades para la página commerce](docs/Activity%20Diagrams/Commerce%20Page/Buy_Sell_Exchange.png)
+### Página Login
+![Diagrama de actividades para la página de login](docs/Activity%20Diagrams/Commerce%20Page/Login_diagram.jpg)
+### Petición de Transacción
+![Diagrama de actividades para la realización de una transacción](docs/Activity%20Diagrams/Commerce%20Page/Transaction_diagram.jpg)
 
 ## Diagrama del flujo web
 En el diagrama podemos observar los caminos que toma la aplicacíon al realizar una compra de criptomonedas desde la página para ello.
