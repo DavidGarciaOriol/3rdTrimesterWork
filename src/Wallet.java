@@ -1,7 +1,10 @@
+import java.util.ArrayList;
+
 public class Wallet {
 
     float balance;
     User owner;
+    ArrayList<Coin> coins = new ArrayList<>();
     Transaction[] transactions;
     float fee;
 
@@ -56,5 +59,9 @@ public class Wallet {
 
     public void setTransactions(Transaction[] transactions) {
         this.transactions = transactions;
+    }
+
+    public void addCoin(Coin coin){
+
     }
 }

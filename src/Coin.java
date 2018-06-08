@@ -1,30 +1,27 @@
-/**
-    Coin class. Represents a single unit of a digital coin.
-    @param shortname it's the acronym of the coin's name.
-*/
+import java.util.UUID;
+
 public abstract class Coin {
 
-    public String name;    
-    public String shortname;
-    private UUID id;
-    private Network network;
-    
-    public Coin(String shortname) {
-        // Pull data from database
+    String name;
+    String shortname;
+    UUID id;
+
+
+    public Coin(String name,String shortname,UUID id){
+        this.name=name;
+        this.shortname=shortname;
+        this.id=id;
     }
 
-    public void buy() {
+    public void buy(){
 
     }
 
-    /**
-        Converts this type of coin to another.
-    */
-    public Coin exchange(Coin to) {
-        return new Exchange(this, to);
+    public Coin exchange(){
+        return null;
     }
 
-    public void transfer(User user) {
+    public void transfer(User user){
 
     }
 

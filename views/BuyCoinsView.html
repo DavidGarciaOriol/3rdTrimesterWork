@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ecommerce - Coin$tracker</title>
+</head>
+<body>
+
+    <div class="actions">
+        <div class="buy">
+            <form action="/api/v1/coins/buy">
+                <select name="coins">
+                    <option value="Bitcoin">Bitcoin</option>
+                    <option value="Etherium">Etherium</option>
+                    <option value="Litecoin">LiteCoin</option>
+                </select>
+
+                <select name="physicalCoins">
+                    <option value="EUR">Euros</option>
+                    <option value="USD">Dólares</option>
+                    <option value="GBP">Libras</option>
+                </select>
+
+                <input type="number" name="coinValue">
+                <input type="number" name="physCoinValue">
+
+                <button type="submit">BUY</button>
+
+                <div class="result">
+                    <h3>Final price</h3>
+                    <span>{{price}} + 2%</span>
+                    <p>
+                        *it takes 2% of your purchase by necessary steps
+                    </p>
+                </div>
+            </form>
+        </div>
+        <div class="sell">
+            <form action="/api/v1/coins/sell">
+                <!-- ... -->
+            </form>
+        </div>
+        <div class="exchange">
+            <form action="/api/v1/coins/exchange">
+                <!-- ... -->
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -11,15 +11,13 @@ public class User {
     Network network;
     String email;
 
-    public User(String name, String user, UUID uuid, Wallet wallet, Network network, String email) {
+
+    public User(String name, String user, UUID uuid, String email) {
 
         this.name = name;
         this.username = user;
         this.id = uuid;
-        this.wallet = wallet;
-        this.network = network;
         this.email = email;
-
     }
 
     /**
@@ -87,4 +85,6 @@ public class User {
     public void setWallet(Wallet wallet) {
         this.wallet = wallet;
     }
+
+
 }
