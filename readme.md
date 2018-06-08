@@ -177,9 +177,9 @@ Este cms tiene muchas ventajas para hacer un blog pero las principales por las q
 ## Fichas técnicas de casos de uso
 - [Ficha para la conversión de monedas en la página principal](docs/Data%20sheets/Coin%20converter%20-%20Data%20sheet.md)
 - [Ficha para la compra de monedas en la página commerce](docs/Data%20Sheets/Buy%20Coin%20-%20Data%20Sheet.md)
-- [Ficha para la compra de monedas en la página coininfo](docs%2FData+sheets%2FCoin+Info+-+Data+Sheet.md)
-- [Ficha para la compra de monedas en la página login](docs%2FData+sheets%2FLogIn+-+Data+Sheet.md)
-- [Ficha para la compra de monedas en la página profile](docs%2FData+sheets%2FProfile+-+Data+Sheet.md)
+- [Ficha para la compra de monedas en la página coininfo](docs/Data%20sheets/Coin%20Info%20-%20Data%20Sheet.md)
+- [Ficha para la compra de monedas en la página login](docs/Data%20sheets/LogIn%20-%20Data%20Sheet.md)
+- [Ficha para la compra de monedas en la página profile](docs/Data%20sheets/Profile%20-%20Data%20Sheet.md)
 
 ## Diagramas de Flujo de Actividad.
 ### Profile
@@ -191,6 +191,10 @@ Este cms tiene muchas ventajas para hacer un blog pero las principales por las q
 ![Diagrama de actividades para la página principal - Coin Selection](docs/Activity%20Diagrams/Main%20Page/Coin_Selection_Menu_Bar.png)
 ### Página Commerce
 ![Diagrama de actividades para la página commerce](docs/Activity%20Diagrams/Commerce%20Page/Buy_Sell_Exchange.png)
+### Página Login
+![Diagrama de actividades para la página de login](docs/Activity%20Diagrams/Main%20Page/Login_diagram.jpg)
+### Petición de Transacción
+![Diagrama de actividades para la realización de una transacción](docs/Activity%20Diagrams/Main%20Page/Transaction_diagram.jpg)
 
 ## Diagrama del flujo web
 En el diagrama podemos observar los caminos que toma la aplicacíon al realizar una compra de criptomonedas desde la página para ello.
